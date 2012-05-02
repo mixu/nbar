@@ -1,5 +1,5 @@
 build:
-	gcc -std=c99 -pedantic -Wall -lX11 nwmbar.c -o ./nwmbar
+	gcc -std=c99 -pedantic -Wall -lX11 ./src/nbar.c -o ./nbar
 
 clean:
-	rm ./nwmbar
+	rm ./nbar
